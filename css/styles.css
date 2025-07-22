@@ -522,6 +522,17 @@ span {
         padding: 2rem 0 2rem 0;
     }
 
+
+    .title-logo {
+        text-align: center;
+        padding: 10rem 0 10rem 0;
+    }   
+    
+    .title-logo img {
+        height: 40px;
+        width: 40px;
+    }     
+
 }
 
 /* Original
