@@ -142,7 +142,7 @@ section {
     height: 100vh;
     background-image: url("../img/Terasa_5_Cover.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-attachment: fixed;
 }
