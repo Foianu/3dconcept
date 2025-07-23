@@ -458,7 +458,7 @@ span {
 
     .content {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: 1fr;
         margin: 2rem 0 2rem 0;
         line-height: 1.6rem;
     }
