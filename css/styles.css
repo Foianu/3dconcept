@@ -439,6 +439,14 @@ span {
 
 /* UI/UX */
 
+.main-UIUX {
+    height: 100vh;
+    background-image: url("../img/Landing Page.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
 
 
@@ -467,7 +475,7 @@ span {
         height: 60vh;
         background-image: url("../img/Terasa_5_Cover.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         background-attachment: fixed;
     }
@@ -476,7 +484,17 @@ span {
         height: 60vh;
         background-image: url("../img/Artboard 1 - Cover.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+
+    .main-UIUX {
+        height: 60vh;
+        background-image: url("../img/Landing Page.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
         background-position: center;
         background-attachment: fixed;
     }
@@ -532,8 +550,8 @@ span {
     }   
     
     .title-logo img {
-        height: 60px;
-        width: 60px;
+        height: 18rem;
+        width: 18rem;
     }     
 
     .footer {
