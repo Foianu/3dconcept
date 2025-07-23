@@ -142,7 +142,7 @@ section {
     height: 100vh;
     background-image: url("../img/Terasa_5_Cover.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
@@ -353,7 +353,7 @@ span {
 /* terms */
 
 .content {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     line-height: 1.6rem;
 }
@@ -457,11 +457,14 @@ span {
     }
 
     .content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin: 2rem 0 2rem 0;
         line-height: 1.6rem;
     }
 
     .main {
-        height: 30vh;
+        height: 60vh;
         background-image: url("../img/Terasa_5_Cover.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -470,7 +473,7 @@ span {
     }
 
     .main-GD {
-        height: 30vh;
+        height: 60vh;
         background-image: url("../img/Artboard 1 - Cover.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -529,44 +532,21 @@ span {
     }   
     
     .title-logo img {
-        height: 40px;
-        width: 40px;
+        height: 60px;
+        width: 60px;
     }     
+
+    .footer {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        gap: 6rem;
+        padding: 2rem 0 2rem 0;
+        color: #222;
+        font-size: 14px;
+    }
 
 }
 
-/* Original
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        margin: 8rem 0 8rem 0;
-        gap: 4rem;
-        align-items: start;
-    }
-
-
-    .grid-container-1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: 1rem 0 1rem 0;
-        gap: 2rem;
-        align-items: center;
-    }
-
-    .grid-container-2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: 8rem 0 8rem 0;
-        gap: 2rem;
-        align-items: start;
-    }    
-
-    .grid-container-3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin: 8rem 0 8rem 0;
-        gap: 8rem;
-        align-items: start;
-    }
-*/
 
