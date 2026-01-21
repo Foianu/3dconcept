@@ -82,12 +82,6 @@ main {
 
 
 
-.landing-page {
-    display: grid;
-    outline: 0.2px solid red;
-    background: red;
-
-}
 
     .grid-container {
         display: grid;
