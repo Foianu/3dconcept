@@ -481,20 +481,8 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .grid-container-contact {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));    
-        align-items: center;
-    }
 
-
-        .container-contact {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));    
-            outline: 0.2px solid #2B2A2A;
-            padding: 1rem 2rem 1rem 2rem;
-        }
-
+ */
             .content-contact {
                 display: flex;
                 justify-content: space-between;
@@ -516,7 +504,7 @@ main {
     }   
 
 
-    */
+   
         .projects-title {
             font-size: 2rem;
             text-align: center;
