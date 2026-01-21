@@ -473,19 +473,9 @@ main {
     body { 
         font-size: 18px;
         max-width: 500px;
-        margin-inline: auto;
-        align-items: center;
     }
 
-    main {
-        color: #2B2A2A;
-        max-width: 500px;
-        margin-inline: auto;
-        align-items: center;
-    }
-
-
-
+/*
     .nav {
         display: grid;
         grid-template-columns: 1fr;
@@ -525,6 +515,8 @@ main {
         outline: 0.5px solid #2B2A2A;
     }   
 
+
+    */
         .projects-title {
             font-size: 2rem;
             text-align: center;
