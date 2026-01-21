@@ -496,7 +496,7 @@ body {
 
     .grid-container-projects {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));    
+        grid-template-columns: 1fr;    
         align-items: center;
         outline: 0.5px solid #2B2A2A;
         background-color: red;
