@@ -353,7 +353,6 @@ body {
     outline: 0.5px solid #2B2A2A;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    background-color: red;
     
 }
 
@@ -362,7 +361,7 @@ body {
     }
 
         .footer-legal p {
-            padding: 0.5rem 0 0.5rem 0;
+            padding: 1rem 0 1rem 0;
             background-color: #2B2A2A;
         }
 
@@ -376,10 +375,6 @@ body {
         gap: 1rem;
         background-color: #fff;
     }
-
-        .footer-external p {
-            padding: 0.5rem 0 0.5rem 0;
-        }
 
         .footer-external a {
             color: #2B2A2A;
@@ -475,74 +470,34 @@ body {
         margin: 0 1rem 0 1rem;
     }
 /*
-    .nav {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    }
+ 
 
 
-
-    .grid-container-photos {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        align-items: center;
-        cursor: pointer;
-    }
-
-    .grid-container-text {
-        display: grid;
-        outline: 0.5px solid #2B2A2A;
-        padding: 0.5rem 1rem 0.5rem 1rem;
-    }
-
-        .grid-container-text-medium {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            outline: 0.5px solid #2B2A2A;
-            font-size: 1.5rem;
-            padding: 1rem;
-        }
-
-        .grid-container-text-big {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            outline: 0.5px solid #2B2A2A;
-            font-size: 3rem;
-            padding: 1rem;
-        }
-
-    .grid-container-projects {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));    
-        align-items: center;
-        outline: 0.5px solid #2B2A2A;
-    }   
-
-
-    .grid-title {
-        outline: 0.5px solid #2B2A2A;
-        font-size: 2rem;
-        text-align: start;
-        padding: 0 0 0 2rem;
-    }
-
-    .services-title {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        outline: 0.5px solid #2B2A2A;
-        font-size: 3rem;
-        padding: 1rem;
-    }
-
-
-
-
-    .grid-container-pages {
-        outline: 0.5px solid #2B2A2A;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));    
-    } 
 */
+
+
+    .grid-container-contact {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));    
+        align-items: center;
+    }
+
+
+        .container-contact {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));    
+            outline: 0.2px solid #2B2A2A;
+            padding: 1rem 2rem 1rem 2rem;
+        }
+
+            .content-contact {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+            }
+
+
 
     .footer {
         display: flex;
