@@ -492,12 +492,18 @@ body {
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
+            }
 
+            .content-contact p {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
             }
 
 
     .grid-container-projects {
-  
+        display: grid;
+        grid-template-columns: 1fr;    
         align-items: center;
         outline: 0.5px solid #2B2A2A;
         background-color: red;
@@ -508,7 +514,6 @@ body {
             text-align: center;
             color: #F0F1F4;
             padding: 4rem 0 1rem 0;
-            background-color: blue;
         }
 
 
