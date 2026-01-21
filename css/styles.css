@@ -469,11 +469,7 @@ body {
     section {
         margin: 0 1rem 0 1rem;
     }
-/*
- 
 
-
-*/
 
 
     .grid-container-contact {
@@ -496,6 +492,25 @@ body {
                 flex-wrap: wrap;
 
             }
+
+
+    .grid-container-projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));    
+        align-items: center;
+        outline: 0.5px solid #2B2A2A;
+        background-color: red;
+    }   
+
+        .projects-title {
+            font-size: 2rem;
+            text-align: center;
+            color: #F0F1F4;
+            padding: 4rem 0 1rem 0;
+        }
+
+
+
 
 
 
