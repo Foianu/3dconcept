@@ -474,8 +474,7 @@ body {
 
     body { 
         max-width: 900px;
-        min-width: 300px;
-        background-color: aqua;
+        min-width: 600px;
         font-size: 18px;
     }
 
@@ -512,7 +511,7 @@ body {
 
 .grid-container-all {
     max-width: 900px;
-    min-width: 300px;
+    min-width: 600px;
     margin-inline: auto;
     display: grid;
     grid-template-columns: 1fr;    
@@ -520,7 +519,9 @@ body {
     outline: 0.5px solid #2B2A2A;
 }   
 
-
+.grid-title {
+    font-size: 3rem;
+}
 
 
     .footer {
