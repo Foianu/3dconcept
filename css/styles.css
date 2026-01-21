@@ -464,6 +464,20 @@ body {
         font-size: 18px;
     }
 
+    main {
+        min-width: 300px;
+    }
+
+    header {
+        min-width: 300px;
+
+    }
+
+    section {
+        min-width: 300px;
+
+    }
+
 /*
     .nav {
         display: grid;
@@ -476,12 +490,16 @@ body {
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
+        font-size: 18px;
+
             }
 
             .content-contact p {
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
+        font-size: 18px;
+
             }
 
 
