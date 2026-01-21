@@ -474,34 +474,10 @@ body {
         font-size: 18px;
     }
 
-    main {
-        min-width: 300px;
-    }
-
-    header {
-        min-width: 300px;
-
-    }
-
-    section {
-        min-width: 300px;
-
-    }
-
-/*
-    .nav {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-
- */
             .content-contact {
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
-        font-size: 18px;
-
             }
 
             .content-contact p {
@@ -531,6 +507,7 @@ body {
 
 .grid-container-all {
     max-width: 900px;
+    min-width: 300;
     margin-inline: auto;
     display: grid;
     grid-template-columns: 1fr;    
