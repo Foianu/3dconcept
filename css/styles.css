@@ -22,6 +22,16 @@ body {
     margin-inline: auto;
 }
 
+.grid-container-all {
+    max-width: 1800px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr;    
+    align-items: center;
+    outline: 0.5px solid #2B2A2A;
+    background-color: pink;
+    margin: 10rem;
+}   
 
 
 /* nav-bar */
@@ -278,15 +288,7 @@ body {
         outline: 0.5px solid #2B2A2A;
     }
 
-.grid-container-all {
-    max-width: 1800px;
-    margin-inline: auto;
-    display: grid;
-    grid-template-columns: 1fr;    
-    align-items: center;
-    outline: 0.5px solid #2B2A2A;
-    background-color: pink;
-}   
+
 
 
 .grid-container-projects {
@@ -471,6 +473,9 @@ body {
 @media (max-width: 900px) {
 
     body { 
+        max-width: 900px;
+        min-width: 300px;
+        background-color: aqua;
         font-size: 18px;
     }
 
@@ -513,7 +518,6 @@ body {
     grid-template-columns: 1fr;    
     align-items: center;
     outline: 0.5px solid #2B2A2A;
-    background-color: crimson;
 }   
 
 
