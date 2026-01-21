@@ -235,6 +235,7 @@ body {
 
 .grid-container-text {
     display: grid;
+    grid-template-columns: 1fr;
     outline: 0.5px solid #2B2A2A;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
@@ -467,11 +468,6 @@ body {
         max-width: 600px;
         margin-inline: auto;
     }
-
-    section {
-        margin: 0 1rem 0 1rem;
-    }
-
 
 
     .grid-container-contact {
