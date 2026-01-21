@@ -20,16 +20,6 @@ body {
     color: #2B2A2A;
     max-width: 1800px;
     margin-inline: auto;
-        align-items: center;
-
-}
-
-main {
-    color: #2B2A2A;
-    max-width: 1800px;
-    margin-inline: auto;
-        align-items: center;
-
 }
 
 
@@ -472,7 +462,6 @@ main {
 
     body { 
         font-size: 18px;
-        max-width: 500px;
     }
 
 /*
