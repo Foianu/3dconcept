@@ -472,7 +472,7 @@ body {
 
     body { 
         max-width: 900px;
-        min-width: 900px;
+        min-width: 700px;
         font-size: 18px;
     }
 
@@ -513,7 +513,7 @@ body {
 
 .grid-container-all {
     max-width: 900px;
-    min-width: 900px;
+    min-width: 700px;
     margin-inline: auto;
     display: grid;
     grid-template-columns: 1fr;    
