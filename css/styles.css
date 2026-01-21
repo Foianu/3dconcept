@@ -22,6 +22,12 @@ body {
     margin-inline: auto;
 }
 
+main {
+    color: #2B2A2A;
+    max-width: 1800px;
+    margin-inline: auto;
+}
+
 
 
 /* nav-bar */
@@ -469,6 +475,14 @@ body {
         margin-inline: auto;
     }
 
+
+
+
+
+    .nav {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
     .grid-container-contact {
         display: grid;
