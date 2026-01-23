@@ -102,7 +102,8 @@ body {
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));    
         align-items: center;
         outline: 0.5px solid #2B2A2A;
-        padding: 6rem;
+        padding: 8rem;
+
     }
 
     .grid-container-logo-2 {
@@ -115,10 +116,13 @@ body {
     .logo-text {
         font-size: 2rem;
         text-align: start;
-        padding: 0 0 0 2rem;
     }
 
 
+    .container-logo {
+        display: flex;
+        align-items: end;
+    }
 
 
     .grid-container-contact {
@@ -166,7 +170,7 @@ body {
             }
 
             .content-icons a:hover {
-                background-color: #686868;
+                background-color: #999999;
                 color: #2B2A2A;
             }
 
@@ -305,7 +309,10 @@ body {
     
 
         .projects-title p {
-            background-color: #686868;
+            background-color: #fff;
+            color: #2B2A2A;
+            margin: 1rem;
+
         }
 
     .projects-subtitle {
@@ -315,7 +322,9 @@ body {
     }
 
         .projects-subtitle p {
-            background-color: #686868;
+            background-color: #fff;
+            color: #2B2A2A;
+            margin: 1rem;
         }
 
 
@@ -361,15 +370,16 @@ body {
     outline: 0.5px solid #2B2A2A;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    
+    gap: 4rem;
+    align-items: center;
 }
 
     .footer-legal {
-        padding: 1rem 0 1rem 0;
+        display: flex;
+        justify-content: space-between;
     }
 
         .footer-legal p {
-            padding: 1rem 0 1rem 0;
             background-color: #2B2A2A;
         }
 
@@ -379,7 +389,7 @@ body {
 
     .footer-external {
         display: flex;
-        padding: 1rem 0 1rem 0;
+        align-items: center;
         gap: 1rem;
         background-color: #fff;
     }
@@ -533,6 +543,16 @@ body {
         flex-wrap: wrap;
         padding: 1rem;
         outline: 0.5px solid #2B2A2A;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .footer-legal {
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
     }
 
 }
