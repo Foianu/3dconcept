@@ -478,7 +478,7 @@ body {
 
 /* mobile */
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
     body { 
         font-size: 18px;
@@ -522,7 +522,7 @@ body {
         }
 
 .grid-container-all {
-    min-width: 600px;
+    min-width: 900px;
     margin-inline: auto;
     display: grid;
     grid-template-columns: 1fr;    
