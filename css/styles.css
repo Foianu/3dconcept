@@ -166,7 +166,6 @@ body {
                 outline: 0.5px solid #F0F1F4;
 
                 text-align: center;
-                gap: 1rem;
             }
 
             .content-icons a:hover {
@@ -234,6 +233,7 @@ body {
 
 
 /* projects */
+
 
 .grid-container-photos {
     display: grid;
@@ -482,7 +482,7 @@ body {
 
     body { 
         max-width: 900px;
-        min-width: 700px;
+        min-width: 300px;
         font-size: 18px;
         background-color: #F0F1F4;
     }
@@ -506,6 +506,7 @@ body {
             }
 
 
+
     .grid-container-projects {
         display: grid;
         grid-template-columns: 1fr;    
@@ -524,7 +525,7 @@ body {
 
 .grid-container-all {
     max-width: 900px;
-    min-width: 700px;
+    min-width: 300px;
     margin-inline: auto;
     display: grid;
     grid-template-columns: 1fr;    
