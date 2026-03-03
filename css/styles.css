@@ -478,11 +478,10 @@ body {
 
 /* mobile */
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
 
     body { 
-        max-width: 900px;
-        min-width: 900px;
+        min-width: 768px;
         font-size: 18px;
         background-color: #F0F1F4;
     }
@@ -524,7 +523,6 @@ body {
         }
 
 .grid-container-all {
-    max-width: 900px;
     min-width: 900px;
     margin-inline: auto;
     display: grid;
@@ -559,10 +557,10 @@ body {
 }
 
 
-@media (max-width: 300px) {
+@media (max-width: 480px) {
 
     body { 
-        min-width: 300px;
+        min-width: 480px;
         font-size: 18px;
         background-color: #F0F1F4;
     }
