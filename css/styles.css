@@ -480,20 +480,21 @@ body {
 @media (max-width: 900px) {
 
 
+
 .grid-container-pages {
     outline: 0.5px solid #2B2A2A;
     display: grid;
-    grid-template-columns: 1fr;    
+    grid-template-columns: 1fr;  
 } 
 
     body { 
-        min-width: 700px;
+        min-width: 600px;
         font-size: 18px;
         background-color: #F0F1F4;
     }
 
     .grid-container-all {
-        min-width: 700px;
+        min-width: 600px;
         display: grid;
         grid-template-columns: 1fr;    
         align-items: center;
@@ -524,6 +525,8 @@ body {
 
 
     .grid-container-contact {
+        min-width: 600px;
+        max-width: 300px;
         display: grid;
         grid-template-columns: 1fr;    
         align-items: center;
@@ -532,6 +535,8 @@ body {
 
 
         .container-contact {
+            min-width: 600px;
+            max-width: 300px;
             display: grid;
             grid-template-columns: 1fr;    
             outline: 0.2px solid #2B2A2A;
@@ -541,14 +546,14 @@ body {
 
 
             .content-contact {
-                min-width: 700px;
+                min-width: 600px;
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
             }
 
             .content-contact p {
-                min-width: 700px;
+                min-width: 600px;
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
@@ -557,7 +562,7 @@ body {
 
 
     .grid-container-projects {
-        max-width: 700px;
+        max-width: 600px;
         display: grid;
         grid-template-columns: 1fr;    
         align-items: center;
@@ -579,12 +584,12 @@ body {
             outline: 0.5px solid #F0F1F4;
             text-align: center;
             color: #fff;
-            min-width: 700px;
+            min-width: 600px;
             max-width: 300px;
         }
 
             .content-icons {
-                min-width: 700px;
+                min-width: 600px;
                 max-width: 300px;
                 display: flex;
                 justify-content: space-between;
@@ -597,6 +602,8 @@ body {
 
 
 .grid-title {
+    min-width: 600px;
+    max-width: 300px;
     font-size: 3rem;
 }
 
@@ -618,6 +625,27 @@ body {
     }  
 
 
+.grid-space {
+    min-width: 600px;
+    max-width: 300px;
+    height: 6rem;
+    outline: 0.5px solid #2B2A2A;
+}
+
+
+.grid-space-medium {
+    min-width: 600px;
+    max-width: 300px;
+    height: 12rem;
+    outline: 0.5px solid #2B2A2A;
+}
+
+.grid-space-small {
+    min-width: 600px;
+    max-width: 300px;
+    height: 3rem;
+    outline: 0.5px solid #2B2A2A;
+}
 
 
 
