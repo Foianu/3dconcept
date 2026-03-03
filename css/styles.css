@@ -559,3 +559,11 @@ body {
 }
 
 
+@media (max-width: 300px) {
+
+    body { 
+        min-width: 300px;
+        font-size: 18px;
+        background-color: #F0F1F4;
+    }
+}
