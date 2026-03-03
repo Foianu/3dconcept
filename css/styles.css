@@ -312,7 +312,6 @@ body {
             background-color: #fff;
             color: #2B2A2A;
             margin: 1rem;
-
         }
 
     .projects-subtitle {
@@ -480,19 +479,42 @@ body {
 
 @media (max-width: 900px) {
 
+
+.grid-container-pages {
+    outline: 0.5px solid #2B2A2A;
+    display: grid;
+    grid-template-columns: 1fr;    
+} 
+
     body { 
-        min-width: 768px;
+        min-width: 600px;
         font-size: 18px;
         background-color: #F0F1F4;
     }
 
     .grid-container-all {
-        min-width: 768px;
+        min-width: 600px;
         display: grid;
         grid-template-columns: 1fr;    
         align-items: center;
-}   
+    }   
 
+
+    .grid-container {
+        display: grid;
+        outline: 0.5px solid #2B2A2A;
+        grid-template-columns: 1fr;
+    }
+
+
+
+
+.grid-container-photos {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    cursor: pointer;
+}
 
 
     .nav-bar {
@@ -500,15 +522,33 @@ body {
         grid-template-columns: 1fr;
     }
 
+
+    .grid-container-contact {
+        display: grid;
+        grid-template-columns: 1fr;    
+        align-items: center;
+
+    }
+
+
+        .container-contact {
+            display: grid;
+            grid-template-columns: 1fr;    
+            outline: 0.2px solid #2B2A2A;
+            padding: 1rem 2rem 1rem 2rem;
+        }
+
+
+
             .content-contact {
-                min-width: 768px;
+                min-width: 600px;
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
             }
 
             .content-contact p {
-                min-width: 768px;
+                min-width: 600px;
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
@@ -517,6 +557,7 @@ body {
 
 
     .grid-container-projects {
+        max-width: 600px;
         display: grid;
         grid-template-columns: 1fr;    
         align-items: center;
@@ -538,12 +579,12 @@ body {
             outline: 0.5px solid #F0F1F4;
             text-align: center;
             color: #fff;
-            min-width: 768px;
+            min-width: 600px;
             max-width: 300px;
         }
 
-        .content-icons {
-                min-width: 768px;
+            .content-icons {
+                min-width: 600px;
                 max-width: 300px;
                 display: flex;
                 justify-content: space-between;
@@ -552,12 +593,14 @@ body {
                 outline: 0.5px solid #F0F1F4;
                 text-align: center;
                 align-items: center;
-        }
+            }
 
 
 .grid-title {
     font-size: 3rem;
 }
+
+
 
     .grid-container-logo {
         display: grid;
@@ -573,7 +616,6 @@ body {
         grid-template-columns: 1fr;    
         align-items: center;
     }  
-
 
 
 
