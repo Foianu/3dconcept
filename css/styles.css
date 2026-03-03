@@ -487,13 +487,13 @@ body {
 } 
 
     body { 
-        min-width: 600px;
+        min-width: 700px;
         font-size: 18px;
         background-color: #F0F1F4;
     }
 
     .grid-container-all {
-        min-width: 600px;
+        min-width: 700px;
         display: grid;
         grid-template-columns: 1fr;    
         align-items: center;
@@ -541,14 +541,14 @@ body {
 
 
             .content-contact {
-                min-width: 600px;
+                min-width: 700px;
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
             }
 
             .content-contact p {
-                min-width: 600px;
+                min-width: 700px;
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
@@ -557,7 +557,7 @@ body {
 
 
     .grid-container-projects {
-        max-width: 600px;
+        max-width: 700px;
         display: grid;
         grid-template-columns: 1fr;    
         align-items: center;
@@ -579,12 +579,12 @@ body {
             outline: 0.5px solid #F0F1F4;
             text-align: center;
             color: #fff;
-            min-width: 600px;
+            min-width: 700px;
             max-width: 300px;
         }
 
             .content-icons {
-                min-width: 600px;
+                min-width: 700px;
                 max-width: 300px;
                 display: flex;
                 justify-content: space-between;
