@@ -481,23 +481,34 @@ body {
 @media (max-width: 900px) {
 
     body { 
+        min-width: 768px;
         font-size: 18px;
         background-color: #F0F1F4;
     }
 
+    .grid-container-all {
+        min-width: 768px;
+        display: grid;
+        grid-template-columns: 1fr;    
+        align-items: center;
+}   
+
+
 
     .nav-bar {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
             .content-contact {
+                min-width: 768px;
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
             }
 
             .content-contact p {
+                min-width: 768px;
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
@@ -511,7 +522,7 @@ body {
         align-items: center;
         outline: 0.5px solid #2B2A2A;
     }   
-
+ 
 
    
         .projects-title {
@@ -521,18 +532,52 @@ body {
             padding: 4rem 0 1rem 0;
         }
 
-.grid-container-all {
-    min-width: 900px;
-    margin-inline: auto;
-    display: grid;
-    grid-template-columns: 1fr;    
-    align-items: center;
-    outline: 0.5px solid #2B2A2A;
-}   
+
+        .container-icons {
+            background-color: #2B2A2A;
+            outline: 0.5px solid #F0F1F4;
+            text-align: center;
+            color: #fff;
+            min-width: 768px;
+            max-width: 300px;
+        }
+
+        .content-icons {
+                min-width: 768px;
+                max-width: 300px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                grid-template-columns: 1fr 1fr 1fr;
+                outline: 0.5px solid #F0F1F4;
+                text-align: center;
+                align-items: center;
+        }
+
 
 .grid-title {
     font-size: 3rem;
 }
+
+    .grid-container-logo {
+        display: grid;
+        grid-template-columns: 1fr;    
+        align-items: center;
+        outline: 0.5px solid #2B2A2A;
+        padding: 8rem;
+
+    }
+
+    .grid-container-logo-2 {
+        display: grid;
+        grid-template-columns: 1fr;    
+        align-items: center;
+    }  
+
+
+
+
+
 
 
     .footer {
