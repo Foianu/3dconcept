@@ -64,6 +64,8 @@ body {
 }
 
 
+
+
 .nav-links-2 a {
     display: grid;
     background-color: #2B2A2A;
@@ -77,6 +79,15 @@ body {
 .nav-links-2 a:hover {
     color: #fff;
 }
+
+
+.nav-links-2-external { 
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        background-color: #fff;
+}
+
 
 
 
@@ -362,21 +373,19 @@ body {
 
 /* footer */
 
+
+
 .footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    outline: 0.5px solid #2B2A2A;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    gap: 4rem;
+    gap: 2rem;
     align-items: center;
+    padding: 2rem;
+    outline: 0.5px solid #2B2A2A;
+
 }
 
-    .footer-legal {
-        display: flex;
-        justify-content: space-between;
-    }
+
 
         .footer-legal p {
             background-color: #2B2A2A;
@@ -459,15 +468,6 @@ body {
 
 
 
-
-/* community */ 
-
-.community {
-    text-align: center;
-    background-color: #2B2A2A;
-    color: #F0F1F4;
-    margin: 20rem;
-}
 
 
 
