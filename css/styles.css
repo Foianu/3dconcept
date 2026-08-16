@@ -11,7 +11,7 @@ html {
 
     font-family: "Overpass Mono", monospace;
     font-optical-sizing: auto;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     
 }
 
@@ -20,6 +20,11 @@ body {
     color: #2B2A2A;
     max-width: 1800px;
     margin-inline: auto;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
 }
 
 .grid-container-all {
@@ -81,11 +86,40 @@ body {
 }
 
 
-.nav-links-2-external { 
+.nav-links-2-external {
         display: flex;
         align-items: center;
         gap: 1rem;
         background-color: #fff;
+}
+
+
+.lang-bar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    outline: none;
+}
+
+.lang-bar a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #2B2A2A;
+}
+
+.lang-bar a:hover {
+    text-decoration: underline;
+}
+
+.lang-bar a.active {
+    text-decoration: underline;
+}
+
+.nav-lang a.active {
+    background-color: #F0F1F4;
+    color: #2B2A2A;
+    pointer-events: none;
 }
 
 
@@ -153,7 +187,13 @@ body {
             .content-contact {
                 display: flex;
                 justify-content: space-between;
+                min-width: 0;
             }
+
+                .content-contact p {
+                    min-width: 0;
+                    overflow-wrap: anywhere;
+                }
 
 
 
@@ -232,6 +272,10 @@ body {
     outline: 0.5px solid #2B2A2A;
 }
 
+.grid-space-medium-lang {
+    height: 12rem;
+}
+
 .grid-space-small {
     height: 3rem;
     outline: 0.5px solid #2B2A2A;
@@ -298,7 +342,7 @@ body {
         width: 100%;
         height: 100%;  
         position: relative;
-        outline: 0.5px solid #2B2A2A;
+        outline: 0.5px solid #2B2A2A;        
     }
 
 
@@ -308,7 +352,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));    
     align-items: center;
-    outline: 0.5px solid #2B2A2A;
+    outline: 0.5px solid #2B2A2A;    
 }   
 
     .projects-title {
@@ -479,28 +523,128 @@ body {
 
 @media (max-width: 900px) {
 
-html {
-    scroll-behavior: smooth;
-    background-color: #F0F1F4;
-    min-width: 700px;
+    * {
+        letter-spacing: 1px;
+    }
+
+    p, a {
+        overflow-wrap: anywhere;
+    }
+
+    .nav,
+    .grid-container,
+    .grid-container-logo,
+    .grid-container-logo-2,
+    .grid-container-contact,
+    .container-contact,
+    .grid-container-photos,
+    .grid-container-text-medium,
+    .grid-container-text-big,
+    .grid-container-projects,
+    .services-title,
+    .footer,
+    .grid-container-pages {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .grid-title {
+        font-size: 2.25rem;
+        padding: 0 0 0 1rem;
+    }
+
+    .grid-container-logo {
+        padding: 3rem 1.5rem;
+    }
+
+    .logo-text {
+        font-size: 1.25rem;
+    }
+
+    .grid-container-text-medium {
+        font-size: 1.125rem;
+    }
+
+    .grid-container-text-big,
+    .services-title {
+        font-size: 1.75rem;
+    }
+
+    .projects-title {
+        font-size: 1.5rem;
+        padding: 3rem 0 1rem 0;
+    }
+
+    .projects-subtitle {
+        padding: 1rem 0 3rem 0;
+    }
+
+    .content-title,
+    .content-title-renders {
+        font-size: 1.5rem;
+        padding: 5rem 0 1rem 0;
+    }
+
+    .content-subtitle-renders {
+        padding: 1rem 0 3rem 0;
+    }
+
+    .lang-bar {
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .grid-space {
+        height: 3rem;
+    }
+
+    .grid-space-medium,
+    .grid-space-medium-lang {
+        height: 6rem;
+    }
+
+    .grid-space-small {
+        height: 1.5rem;
+    }
+
+    .content-contact {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .content-contact p {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .scroll-btn {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 20px;
+        line-height: 40px;
+    }
+
+    .company {
+        padding: 1rem;
+    }
+
 }
 
 
-.grid-title {
-    font-size: 3rem;
-}
+@media (max-width: 480px) {
 
+    .grid-title {
+        font-size: 1.75rem;
+    }
 
-.content-contact {
-    display: grid;
-    grid-template-columns: 1fr;
-}
+    .grid-container-text-big,
+    .services-title {
+        font-size: 1.375rem;
+    }
 
-.content-contact p {
-    display: grid;
-    grid-template-columns: 1fr;
-
-}
+    .projects-title {
+        font-size: 1.25rem;
+    }
 
 }
 
